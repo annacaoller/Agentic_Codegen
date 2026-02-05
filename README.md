@@ -20,4 +20,3 @@ To run the project locally, create and activate a virtual environment, then inst
 
 All tests can be executed using the Python standard library test runner with explicit test discovery. No third-party testing frameworks are required.
 
-This project demonstrates how to build production-oriented agentic systems by combining explicit state management, structured tool invocation, validation-driven retries, and deterministic testing. It is intended as a reference implementation for reliable Agentic AI design rather than a minimal example.
