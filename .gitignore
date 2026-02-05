@@ -1,0 +1,98 @@
+# =====================================================
+# Python / Virtual Environments
+# =====================================================
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# =====================================================
+# Python bytecode / cache
+# =====================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# =====================================================
+# Package managers
+# =====================================================
+# pip
+pip-wheel-metadata/
+
+# Poetry
+.poetry/
+poetry.lock.tmp
+
+# Pipenv
+Pipfile.lock
+
+# =====================================================
+# Build / distribution
+# =====================================================
+build/
+dist/
+wheelhouse/
+.eggs/
+
+# =====================================================
+# Test / Coverage
+# =====================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =====================================================
+# Logs / runtime artifacts
+# =====================================================
+*.log
+logs/
+.cache/
+tmp/
+temp/
+
+# =====================================================
+# Jupyter / Notebooks
+# =====================================================
+.ipynb_checkpoints/
+
+# =====================================================
+# Agentic / LLM tooling (LangChain, OpenAI, etc.)
+# =====================================================
+# Local vector stores / embeddings
+.chroma/
+chromadb/
+faiss/
+indexes/
+
+# Prompt / run artifacts
+runs/
+outputs/
+
+# Environment configs
+.env
+.env.*
+*.env
+
+# =====================================================
+# IDEs / Editors
+# =====================================================
+.vscode/
+.vs/
+.idea/
+*.swp
+
+# =====================================================
+# OS
+# =====================================================
+.DS_Store
+Thumbs.db
+
+# Generated artifacts from this project
+generated/

@@ -1,0 +1,31 @@
+{
+  "id": "swap_dict_keys_values_v1",
+  "language": "python",
+  "stdlib_only": true,
+  "function": {
+    "name": "swap_dict",
+    "args": [
+      {"name": "d", "type": "dict[str, int]"}
+    ],
+    "returns": "dict[int, str]"
+  },
+  "behavior": {
+    "description": "Return a new dict swapping keys and values.",
+    "constraints": [
+      "Raise ValueError if values are not unique.",
+      "Do not mutate input."
+    ]
+  },
+  "examples": [
+    {"input": {"d": {"a": 1, "b": 2}}, "output": {"1": "a", "2": "b"}}
+  ],
+  "edge_cases": [
+    "empty dict",
+    "duplicate values should error"
+  ],
+  "quality": {
+    "docstring_style": "google",
+    "min_tests": 4,
+    "must_include_edge_case_test": true
+  }
+}

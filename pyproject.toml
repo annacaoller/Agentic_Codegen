@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-codegen"
+version = "0.1.0"
+description = "Agentic code generator (code+docs+tests) with EvalGuard"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "openai>=1.0.0"
+]
+
+[project.scripts]
+agentic_codegen = "agentic_codegen.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
